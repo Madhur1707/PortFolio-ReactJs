@@ -6,7 +6,7 @@ export default function Projects({ mode }) {
   const projects = [
     {
       title: "ParyatanCity",
-      image: "/images/project/paryatan.png",
+      image: "/images/project/Paryatan.webp",
       button: [
         {
           btnText: "Demo",
@@ -20,10 +20,13 @@ export default function Projects({ mode }) {
     },
     {
       title: "Admin-Panel Dashboard",
-      image: "/images/project/admin.png",
+      image: "/images/project/Admin.png",
       button: [
         { btnText: "Demo", link: "https://adminpanel17.netlify.app/" },
-        { btnText: "Code", link: "https://github.com/Madhur1707/AdminDashboard" },
+        {
+          btnText: "Code",
+          link: "https://github.com/Madhur1707/AdminDashboard",
+        },
       ],
     },
 
@@ -111,7 +114,8 @@ export default function Projects({ mode }) {
             key={project.title}
             className={`${
               !mode ? "bg-white" : "bg-[#070707]"
-            }  shadow shadow-slate-800 rounded-xl border-solid border-myColor sm:w-[20rem] lg:w-[25rem]`}>
+            }  shadow shadow-slate-800 rounded-xl border-solid border-myColor sm:w-[20rem] lg:w-[25rem]`}
+          >
             <a href={project.button[0].link}>
               <img
                 loading="lazy"
@@ -128,7 +132,8 @@ export default function Projects({ mode }) {
                   <a
                     href={project.button[0].link}
                     target="_blank"
-                    className="border-[1px] border-myColor rounded px-2 py-1 btn-anim">
+                    className="border-[1px] border-myColor rounded px-2 py-1 btn-anim"
+                  >
                     {project.button[0].btnText}
                   </a>
                 </button>
@@ -136,7 +141,8 @@ export default function Projects({ mode }) {
                   <a
                     href={project.button[1].link}
                     target="_blank"
-                    className="border-[1px] border-solid border-myColor rounded px-2 py-1">
+                    className="border-[1px] border-solid border-myColor rounded px-2 py-1"
+                  >
                     {project.button[1].btnText}
                   </a>
                 </button>

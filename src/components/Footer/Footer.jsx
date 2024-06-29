@@ -54,7 +54,7 @@ export default function Footer({ mode }) {
         viewport={{ once: true }}
         className="mb-4 logo tracking-wider text-xl"
       >
-        Madhur<i className="fa-solid fa-circle text-[6px] text-myColor"></i>
+        Madhur Pathak<i className="fa-solid fa-circle text-[6px] text-myColor"></i>
       </motion.h1>
       <div
         className={`${

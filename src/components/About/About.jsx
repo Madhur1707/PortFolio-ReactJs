@@ -20,7 +20,7 @@ export default function About({ mode }) {
         >
           <div className="m-auto border-[2px] border-solid border-myColor relative rounded-full w-max p-6">
             <img
-              src="../../images/dp2.webp"
+              src="../../images/profilePic.jpeg"
               alt=""
               className="rounded-full w-[15rem] lg:w-[25rem] border-[2px] border-solid border-myColor"
             />
@@ -108,7 +108,7 @@ export default function About({ mode }) {
           </div>
           <button>
             <a
-              href="../file/Resume_Madhur_Pathak.pdf"
+              href="../file/Madhur-Pathak-Resume.pdf"
               target="_blank"
               className="bg-myColor rounded px-4 py-2 text-black"
             >

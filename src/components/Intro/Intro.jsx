@@ -11,16 +11,16 @@ export default function Intro() {
   });
   const socials = [
     {
-      icon: <i className="fa-brands fa-x-twitter text-black"></i>,
-      link: "https://x.com/Madhur_Pathak07",
-    },
-    {
       icon: <i className="fa-brands fa-linkedin-in text-black"></i>,
       link: "https://www.linkedin.com/in/madhurpathak/",
     },
     {
       icon: <i className="fa-brands fa-github text-black"></i>,
       link: "https://github.com/Madhur1707",
+    },
+    {
+      icon: <i className="fa-brands fa-x-twitter text-black"></i>,
+      link: "https://x.com/Madhur_Pathak07",
     },
   ];
   return (
