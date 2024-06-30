@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable react/prop-types */
 import { motion } from "framer-motion";
 import { fadeIn } from "../Variants";
@@ -54,7 +55,7 @@ export default function Footer({ mode }) {
         viewport={{ once: true }}
         className="mb-4 logo tracking-wider text-xl"
       >
-        Madhur Pathak<i className="fa-solid fa-circle text-[6px] text-myColor"></i>
+      let's Connect..<i className="fa-solid fa-circle text-[6px] text-myColor"></i>
       </motion.h1>
       <div
         className={`${
@@ -68,8 +69,8 @@ export default function Footer({ mode }) {
           viewport={{ once: true }}
           className="flex flex-col gap-[1rem] lg:gap-[1rem] lg:px-[4rem] lg:pb-[3rem]"
         >
-          <p>Full Stack Developer</p>
           <p>Software Engineer</p>
+          <p>Front-End-Developer</p>
         </motion.div>
         <motion.ul
           variants={fadeIn("up", 0, 1)}

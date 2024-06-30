@@ -5,8 +5,22 @@ import { fadeIn } from "/src/components/Variants.js";
 export default function Projects({ mode }) {
   const projects = [
     {
+      title: "FoodMania! MERN-Stack",
+      image: "/images/project/photo-collage.png.png",
+      button: [
+        {
+          btnText: "Demo",
+          link: "https://foodmania-frontend.onrender.com/",
+        },
+        {
+          btnText: "Code",
+          link: "https://github.com/Madhur1707/FoodMania",
+        },
+      ],
+    },
+    {
       title: "ParyatanCity",
-      image: "/images/project/Paryatan.webp",
+      image: "/images/project/ParyatanCity.png",
       button: [
         {
           btnText: "Demo",
@@ -20,7 +34,7 @@ export default function Projects({ mode }) {
     },
     {
       title: "Admin-Panel Dashboard",
-      image: "/images/project/Admin.png",
+      image: "/images/project/adminPanel.png",
       button: [
         { btnText: "Demo", link: "https://adminpanel17.netlify.app/" },
         {
@@ -30,76 +44,63 @@ export default function Projects({ mode }) {
       ],
     },
 
-    {
-      title: "NFT Dashboard",
-      image: "/images/project/NFT.webp",
-      button: [
-        {
-          btnText: "Demo",
-          link: "https://www.behance.net/gallery/165368609/NFT-Marketplace-Dashboard",
-        },
-        {
-          btnText: "Design",
-          link: "https://www.figma.com/file/4OypLn3qSmjImRvOyIvz9v/NFT?type=design&node-id=0%3A1&mode=design&t=kK65jgb0QMbhNZWu-1",
-        },
-      ],
-    },
-    {
-      title: "Furniture",
-      image: "/images/project/Furniture.webp",
-      button: [
-        {
-          btnText: "Demo",
-          link: "https://oyesola-dolapo.github.io/furniture-e-commerce/",
-        },
-        {
-          btnText: "Code",
-          link: "https://github.com/oyesola-dolapo/furniture-e-commerce",
-        },
-      ],
-    },
-    {
-      title: "Nike",
-      image: "/images/project/Nike.webp",
-      button: [
-        {
-          btnText: "Demo",
-          link: "https://oyesola-dolapo.github.io/Nike/",
-        },
-        {
-          btnText: "Code",
-          link: "https://github.com/oyesola-dolapo/Nike",
-        },
-      ],
-    },
-    {
-      title: "Kuda clone",
-      image: "/images/project/Kuda.webp",
-      button: [
-        {
-          btnText: "Demo",
-          link: "https://www.behance.net/gallery/160756153/Kuda-Bank-Landing-page",
-        },
-        {
-          btnText: "Design",
-          link: "https://www.figma.com/design/8V8AzLqtS3I6D6vZeGbhS9/kuda.?node-id=0-1&t=rsoWCmiY5e9LDq3X-1e",
-        },
-      ],
-    },
-    {
-      title: "Fitness",
-      image: "/images/project/gym.webp",
-      button: [
-        {
-          btnText: "Demo",
-          link: "https://oyesola-dolapo.github.io/Gym/",
-        },
-        {
-          btnText: "Code",
-          link: "https://github.com/oyesola-dolapo/Gym",
-        },
-      ],
-    },
+    // {
+    //   title: "NFT Dashboard",
+    //   image: "/images/project/NFT.webp",
+    //   button: [
+    //     {
+    //       btnText: "Demo",
+    //       link: "https://www.behance.net/gallery/165368609/NFT-Marketplace-Dashboard",
+    //     },
+    //     {
+    //       btnText: "Design",
+    //       link: "https://www.figma.com/file/4OypLn3qSmjImRvOyIvz9v/NFT?type=design&node-id=0%3A1&mode=design&t=kK65jgb0QMbhNZWu-1",
+    //     },
+    //   ],
+    // },
+    // {
+    //   title: "Furniture",
+    //   image: "/images/project/Furniture.webp",
+    //   button: [
+    //     {
+    //       btnText: "Demo",
+    //       link: "https://oyesola-dolapo.github.io/furniture-e-commerce/",
+    //     },
+    //     {
+    //       btnText: "Code",
+    //       link: "https://github.com/oyesola-dolapo/furniture-e-commerce",
+    //     },
+    //   ],
+    // },
+
+    // {
+    //   title: "Kuda clone",
+    //   image: "/images/project/Kuda.webp",
+    //   button: [
+    //     {
+    //       btnText: "Demo",
+    //       link: "https://www.behance.net/gallery/160756153/Kuda-Bank-Landing-page",
+    //     },
+    //     {
+    //       btnText: "Design",
+    //       link: "https://www.figma.com/design/8V8AzLqtS3I6D6vZeGbhS9/kuda.?node-id=0-1&t=rsoWCmiY5e9LDq3X-1e",
+    //     },
+    //   ],
+    // },
+    // {
+    //   title: "Fitness",
+    //   image: "/images/project/gym.webp",
+    //   button: [
+    //     {
+    //       btnText: "Demo",
+    //       link: "https://oyesola-dolapo.github.io/Gym/",
+    //     },
+    //     {
+    //       btnText: "Code",
+    //       link: "https://github.com/oyesola-dolapo/Gym",
+    //     },
+    //   ],
+    // },
   ];
 
   return (
@@ -122,7 +123,7 @@ export default function Projects({ mode }) {
                 src={project.image}
                 target="_blank"
                 alt=""
-                className="rounded sm:h-[15rem] w-full overflow-hidden border-[1px] border-myColor"
+                className="rounded  object-cover sm:h-[15rem] w-full overflow-hidden border-[1px] border-myColor"
               />
             </a>
             <div className="flex items-center justify-between p-4 py-6">

@@ -38,7 +38,7 @@ const Nav = ({ mode, changeMode }) => {
     >
       <h1 className="logo tracking-wider text-xl">
         Madhur Pathak
-        <i className="fa-solid fa-circle text-[6px] text-myColor"></i>
+        <i className="fa-solid fa-circle text-[6px] text-myColor"></i>  
       </h1>
       {!menu ? (
         <i

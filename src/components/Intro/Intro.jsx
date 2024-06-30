@@ -4,7 +4,7 @@ import { fadeIn } from "../Variants";
 
 export default function Intro() {
   const [typeEffect] = useTypewriter({
-    words: ["Front-End-Developer", "Software Engineer"],
+    words: ["Front-End-Developement", "React.js-Developer"],
     loop: {},
     typeSpeed: 80,
     deleteSpeed: 50,
@@ -26,7 +26,7 @@ export default function Intro() {
   return (
     <section className="h-screen relative flex">
       <img
-        src="../../images/Newbg.avif"
+        src="../../images/Back.webp"
         alt=""
         className="absolute w-full h-full opacity-[.1]"
       />
