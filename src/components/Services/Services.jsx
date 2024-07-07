@@ -39,7 +39,7 @@ export default function Services() {
               whileInView="show"
               viewport={{ once: true }}
               key={card.index}
-              className={`${cardStyle} text-justify relative sm:w-[25rem] border-2 border-solid border-myColor rounded-xl py-10 px-4`}
+              className={`${cardStyle} relative sm:w-[25rem] border-2 border-solid border-myColor rounded-xl py-10 px-4`}
             >
               <h1 className="absolute right-[2rem] top-[1rem] text-4xl font-medium opacity-[.3]">
                 {card.index}

@@ -20,7 +20,7 @@ export default function About({ mode }) {
         >
           <div className="m-auto border-[2px] border-solid border-myColor relative rounded-full w-max p-6">
             <img
-              src="../../images/profilePic.jpeg"
+              src="../../images/dp.jpeg"
               alt=""
               className="rounded-full w-[15rem] lg:w-[25rem] border-[2px] border-solid border-myColor"
             />
@@ -100,9 +100,9 @@ export default function About({ mode }) {
             </p>{" "}
             <p>
               Beyond the screen, I find inspiration in{" "}
-              <span className="text-myColor font-medium">Developement</span>. Whether
-              it"s exploring the latest tech trends or immersing myself in
-              nature, I'm always seeking new sources of creativity and
+              <span className="text-myColor font-medium">Developement</span>.
+              Whether it"s exploring the latest tech trends or immersing myself
+              in nature, I'm always seeking new sources of creativity and
               innovation.
             </p>
           </div>
