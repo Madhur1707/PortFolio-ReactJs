@@ -5,11 +5,25 @@ import { fadeIn } from "/src/components/Variants.js";
 export default function Projects({ mode }) {
   const projects = [
     {
+      title: "Quanta-AI",
+      image: "/images/project/quantaai.png",
+      button: [
+        {
+          btnText: "Live",
+          link: "https://quanta-ai-two.vercel.app/",
+        },
+        {
+          btnText: "Code",
+          link: "https://github.com/Madhur1707/GEN_CONTENT_AI",
+        },
+      ],
+    },
+    {
       title: "FoodMania! MERN-Stack",
       image: "/images/project/photo-collage.png.png",
       button: [
         {
-          btnText: "Demo",
+          btnText: "Live",
           link: "https://foodmania-frontend.onrender.com/",
         },
         {
@@ -23,7 +37,7 @@ export default function Projects({ mode }) {
       image: "/images/project/ParyatanCity.png",
       button: [
         {
-          btnText: "Demo",
+          btnText: "Live",
           link: "https://paryatancity.com/",
         },
         {
@@ -36,7 +50,7 @@ export default function Projects({ mode }) {
       title: "Admin-Panel Dashboard",
       image: "/images/project/adminPanel.png",
       button: [
-        { btnText: "Demo", link: "https://adminpanel17.netlify.app/" },
+        { btnText: "Live", link: "https://adminpanel17.netlify.app/" },
         {
           btnText: "Code",
           link: "https://github.com/Madhur1707/AdminDashboard",
@@ -44,20 +58,6 @@ export default function Projects({ mode }) {
       ],
     },
 
-    // {
-    //   title: "NFT Dashboard",
-    //   image: "/images/project/NFT.webp",
-    //   button: [
-    //     {
-    //       btnText: "Demo",
-    //       link: "https://www.behance.net/gallery/165368609/NFT-Marketplace-Dashboard",
-    //     },
-    //     {
-    //       btnText: "Design",
-    //       link: "https://www.figma.com/file/4OypLn3qSmjImRvOyIvz9v/NFT?type=design&node-id=0%3A1&mode=design&t=kK65jgb0QMbhNZWu-1",
-    //     },
-    //   ],
-    // },
     // {
     //   title: "Furniture",
     //   image: "/images/project/Furniture.webp",
