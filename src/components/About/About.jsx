@@ -18,11 +18,11 @@ export default function About({ mode }) {
           viewport={{ once: true }}
           className="left flex py-6 sm:py-0 lg:w-[50%]"
         >
-          <div className="m-auto border-[2px] border-solid border-myColor relative rounded-full w-max p-6">
+          <div className="m-auto border-[2px] border-solid border-myColor relative rounded-xl w-max p-6">
             <img
-              src="../../images/dp.jpeg"
+              src="../../images/dp2.jpeg"
               alt=""
-              className="rounded-full w-[15rem] lg:w-[25rem] border-[2px] border-solid border-myColor"
+              className="rounded-xl w-[15rem] lg:w-[20rem] border-[2px] border-solid border-myColor"
             />
             <motion.img
               variants={fadeIn("right", 0.5, 1)}
@@ -31,7 +31,7 @@ export default function About({ mode }) {
               viewport={{ once: true }}
               src="../../images/progIcons/js.webp"
               alt=""
-              className="icon top-2 left-10 lg:top-6 lg:left-20"
+              className="icon top-2 left-5 lg:top-4 lg:left-5"
             />
             <motion.img
               variants={fadeIn("right", 0.5, 1)}
@@ -40,7 +40,7 @@ export default function About({ mode }) {
               viewport={{ once: true }}
               src="../../images/progIcons/redux.webp"
               alt=""
-              className="icon bottom-10 lg:bottom-20"
+              className="icon bottom-4 lg:bottom-4"
             />
             <motion.img
               variants={fadeIn("left", 0.5, 1)}
@@ -49,7 +49,7 @@ export default function About({ mode }) {
               viewport={{ once: true }}
               src="../../images/progIcons/react.webp"
               alt=""
-              className="icon right-2 top-10 lg:right-6 lg:top-20"
+              className="icon right-2 top-2 lg:right-4 lg:top-4"
             />
             <motion.img
               variants={fadeIn("left", 0.5, 1)}
@@ -58,7 +58,7 @@ export default function About({ mode }) {
               viewport={{ once: true }}
               src="../../images/progIcons/mango.webp"
               alt=""
-              className="icon right-0 bottom-10 lg:right-4 lg:bottom-20"
+              className="icon right-2 bottom-4 lg:right-4 lg:bottom-4"
             />
           </div>
         </motion.div>
@@ -108,7 +108,7 @@ export default function About({ mode }) {
           </div>
           <button>
             <a
-              href="../file/Madhur-Pathak-Resume.pdf"
+              href="../file/Madhur_Pathak.pdf"
               target="_blank"
               className="bg-myColor rounded px-4 py-2 text-black"
             >
