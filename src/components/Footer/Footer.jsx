@@ -69,7 +69,7 @@ export default function Footer({ mode }) {
           viewport={{ once: true }}
           className="flex flex-col gap-[1rem] lg:gap-[1rem] lg:px-[4rem] lg:pb-[3rem]"
         >
-          <p>Software Engineer</p>
+          <p>Software Developer</p>
           <p>Front-End-Developer</p>
         </motion.div>
         <motion.ul
