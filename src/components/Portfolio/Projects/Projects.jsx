@@ -47,6 +47,20 @@ export default function Projects({ mode }) {
       ],
     },
     {
+      title: "Task Management App",
+      image: "/images/project/task.jpg",
+      button: [
+        {
+          btnText: "Live",
+          link: "https://task-manager-appj.vercel.app/",
+        },
+        {
+          btnText: "Code",
+          link: "https://github.com/Madhur1707/Task-Management-App",
+        },
+      ],
+    },
+    {
       title: "ParyatanCity",
       image: "/images/project/ParyatanCity.png",
       button: [

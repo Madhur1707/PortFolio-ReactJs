@@ -38,7 +38,7 @@ const Nav = ({ mode, changeMode }) => {
     >
       <h1 className="logo tracking-wider text-xl">
         Madhur Pathak
-        <i className="fa-solid fa-circle text-[6px] text-myColor"></i>  
+        <i className="fa-solid fa-circle text-[6px] text-myColor"></i>
       </h1>
       {!menu ? (
         <i
@@ -104,7 +104,7 @@ const Nav = ({ mode, changeMode }) => {
           <a
             href="../file/Madhur_Pathak.pdf"
             target="_blank"
-            className={`text-black bg-myColor rounded px-4 py-2`}
+            className="bg-myColor rounded px-4 py-2 text-black"
           >
             View Resume <i className="fa-solid fa-download ml-2"></i>
           </a>

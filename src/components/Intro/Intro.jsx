@@ -57,9 +57,9 @@ export default function Intro() {
           animate={"show"}
         >
           <a
-            href="../file/Madhur-Pathak-Resume.pdf"
+            href="../file/Madhur_Pathak.pdf"
             target="_blank"
-            className="bg-myColor rounded px-4 py-2 text-black lg:hidden"
+            className="bg-myColor rounded px-4 py-2 text-black"
           >
             View Resume <i className="fa-solid fa-download text-black ml-2"></i>
           </a>
