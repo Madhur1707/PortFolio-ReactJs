@@ -5,6 +5,17 @@ import { fadeIn } from "/src/components/Variants.js";
 export default function Projects({ mode }) {
   const projects = [
     {
+      title: "MyVault",
+      image: "/images/project/aifinance.png",
+      button: [
+        { btnText: "Live", link: "https://my-vault-two.vercel.app/" },
+        {
+          btnText: "Code",
+          link: "https://github.com/Madhur1707/MyVault",
+        },
+      ],
+    },
+    {
       title: "HiredHub",
       image: "/images/project/hired-hub.png",
       button: [
@@ -32,20 +43,7 @@ export default function Projects({ mode }) {
         },
       ],
     },
-    {
-      title: "FoodMania! MERN-Stack",
-      image: "/images/project/photo-collage.png.png",
-      button: [
-        {
-          btnText: "Live",
-          link: "https://foodmania-frontend.onrender.com/",
-        },
-        {
-          btnText: "Code",
-          link: "https://github.com/Madhur1707/FoodMania",
-        },
-      ],
-    },
+
     {
       title: "Task Management App",
       image: "/images/project/task.jpg",
@@ -61,6 +59,20 @@ export default function Projects({ mode }) {
       ],
     },
     {
+      title: "FoodMania! MERN-Stack",
+      image: "/images/project/FoodMania.png",
+      button: [
+        {
+          btnText: "Live",
+          link: "https://foodmania-frontend.onrender.com/",
+        },
+        {
+          btnText: "Code",
+          link: "https://github.com/Madhur1707/FoodMania",
+        },
+      ],
+    },
+    {
       title: "ParyatanCity",
       image: "/images/project/ParyatanCity.png",
       button: [
@@ -71,17 +83,6 @@ export default function Projects({ mode }) {
         {
           btnText: "Code",
           link: "https://github.com/Madhur1707/Paryatancity.io",
-        },
-      ],
-    },
-    {
-      title: "Admin-Panel Dashboard",
-      image: "/images/project/adminPanel.png",
-      button: [
-        { btnText: "Live", link: "https://adminpanel17.netlify.app/" },
-        {
-          btnText: "Code",
-          link: "https://github.com/Madhur1707/AdminDashboard",
         },
       ],
     },
