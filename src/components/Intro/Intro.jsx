@@ -57,7 +57,7 @@ export default function Intro() {
           animate={"show"}
         >
           <a
-            href="../file/Madhur_Pathak.pdf"
+             href="../file/Madhur_Pathak_Resume.pdf"
             target="_blank"
             className="bg-myColor rounded px-4 py-2 text-black"
           >

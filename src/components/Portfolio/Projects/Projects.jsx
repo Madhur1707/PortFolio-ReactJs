@@ -5,19 +5,8 @@ import { fadeIn } from "/src/components/Variants.js";
 export default function Projects({ mode }) {
   const projects = [
     {
-      title: "MyVault",
-      image: "/images/project/aifinance.png",
-      button: [
-        { btnText: "Live", link: "https://my-vault-two.vercel.app/" },
-        {
-          btnText: "Code",
-          link: "https://github.com/Madhur1707/MyVault",
-        },
-      ],
-    },
-    {
       title: "HiredHub",
-      image: "/images/project/hired-hub.png",
+      image: "/images/project/HiredHub.png",
       button: [
         {
           btnText: "Live",
@@ -26,6 +15,17 @@ export default function Projects({ mode }) {
         {
           btnText: "Code",
           link: "https://github.com/Madhur1707/HiredHub",
+        },
+      ],
+    },
+    {
+      title: "MyVault",
+      image: "/images/project/aifinance.png",
+      button: [
+        { btnText: "Live", link: "https://my-vault-two.vercel.app/" },
+        {
+          btnText: "Code",
+          link: "https://github.com/Madhur1707/MyVault",
         },
       ],
     },
